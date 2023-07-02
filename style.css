@@ -1,0 +1,242 @@
+body{
+    background: #2C3333;
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+}
+.navbar{
+    width: 90%;
+    height: 80px;
+    background: #395B64;
+    margin:30px 0 0 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+.navbar ul{
+    text-align: center;
+    padding: 24px 0;
+    font-size: 1.3em;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li i:hover{
+    color: #FF6E31;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #E7F6F2;
+}
+.navbar ul li a:hover{
+    color: #FF6E31;
+}
+.topic{
+    text-align: center;
+}
+.topic h1{
+    margin-top: 100px;
+    font-size: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF6E31;
+}
+.topic h3{
+    margin-top: -150px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E7F6F2;
+}
+.topic p{
+    padding: 100px 0 200px;
+    margin: 0 5%;
+    color: #A5C9CA;
+    font-size: 30px;
+}
+.latestr{
+    padding: 10px 0 20px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    font-size: 50px;
+    text-decoration: underline;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #A5C9CA;
+    width: 80%;
+    color: #2C3333;
+}
+.content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+table th{
+    padding: 0 0 150px;
+}
+.moviepic1, .moviepic2, .moviepic3{
+    display: block;
+    width: 560px;
+    height: 315px;
+}
+.moviepic1 img, .moviepic2 img, .moviepic3 img{
+    width: 560px;   /*width: 560px; height: 315px;*/
+    height: 315px;
+} 
+.overlay1{
+    position: absolute;
+    overflow: hidden;
+    width: 560px;
+    margin-top: -319px;
+}
+.overlay2{
+    position: absolute;
+    overflow: hidden;
+    width: 560px;
+    margin-top: -319px;
+}
+.overlay3{
+    position: absolute;
+    overflow: hidden;
+    width: 560px;
+    margin-top: -319px;
+}
+.moviepic1:hover .overlay1, .moviepic2:hover .overlay2, .moviepic3:hover .overlay3{
+    height: 315px;
+}
+.movieved1, .movieved2, .movieved3{
+    position:absolute;
+    overflow: hidden;
+    width: 560px;
+    height: 315px;
+}
+table td ul{
+    font-size: 1.5em;
+    margin: -180px 0 0 120px;
+}
+.moviename{
+    font-size: 1.8em;
+    color: #E7F6F2;
+    text-transform: capitalize;
+}
+table td ul li{
+    margin: 20px 0 0 70px;
+    color: #E7F6F2;
+}
+.imdb{
+    margin-left: 20px;
+}
+table td ul li a i{
+    margin-left: 5px;
+    font-size: 50px;
+    color: #E7F6F2;
+}
+table td ul li a i:hover{
+    color: #FF6E31;
+}
+.download{
+    list-style: none;
+    padding: 30px 0 0 20px;
+}
+.download input{
+    font-size: 1.1em;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    background: #395B64;
+    color: #E7F6F2;
+}
+.download input:hover{
+    background: #E7F6F2;
+    color: #2C3333;
+}
+.watchm {
+    font-size: 2.0em;
+    text-align: center;
+    margin: -60px 0 100px 0;
+}
+.watchm a{
+    text-decoration: none;
+    color: #FF6E31;
+}
+.watchm a:hover{
+    text-decoration: underline;
+    color: #E7F6F2;
+}
+footer{
+    background: #A5C9CA;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer h3{
+    color: #2C3333;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer p{
+    color: #2C3333;
+    max-width: 80%;
+    margin: -20px auto 20px ;
+    line-height: 20px;
+    font-size: 21px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: #2C3333;
+    margin-right:40px;
+}
+.footer a i:hover{
+    color: #FF6E31;
+}
+.footer-name{
+    width: 100%;
+    padding:0 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-name span{
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+.footer-name span a{
+    text-decoration: none;
+    color: #2C3333;
+    font-size: 1.2em;
+}
+.footer-name span a:hover{
+    color: #FF6E31;
+}
