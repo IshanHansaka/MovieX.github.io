@@ -3,6 +3,8 @@
 ## Overview
 The **Movie.X** project is a web-based application designed for movie enthusiasts. It offers a comprehensive collection of the latest and greatest films from around the world. The website is built with a user-friendly interface that allows easy navigation and browsing through a vast array of movie genres. This project was created as a final assignment for a beginner's web design course and is deployed on GitHub Pages.
 
+The **Movie.X** project is deployed using GitHub Pages. You can access the live website [MovieX.github.io](https://ishanhansaka.github.io/MovieX.github.io/).
+
 ## Features
 
 ### Navigation Bar
@@ -42,9 +44,6 @@ A footer section that provides contact details and social media links:
 3. **Read Details:** Click on IMDB links for detailed movie ratings and reviews.
 4. **Download Movies:** Click the download button to initiate a download alert.
 5. **Contact Us:** Use the contact details and social media links to get in touch or follow for updates.
-
-## Deployment
-The **Movie.X** project is deployed using GitHub Pages. You can access the live website [MovieX.github.io](https://ishanhansaka.github.io/MovieX.github.io/).
 
 ## Credits
 - **Design and Development:** Ishan Hansaka
